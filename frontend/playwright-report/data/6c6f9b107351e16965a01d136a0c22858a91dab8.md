@@ -1,0 +1,159 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "📋 Task Manager" [level=1] [ref=e5]
+    - paragraph [ref=e6]: Sistema de gerenciamento de tarefas para disciplina de Teste de Software
+    - navigation [ref=e7]:
+      - link "Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: /
+      - link "Usuários" [ref=e9] [cursor=pointer]:
+        - /url: /users
+      - link "Tarefas" [ref=e10] [cursor=pointer]:
+        - /url: /tasks
+      - link "Categorias" [ref=e11] [cursor=pointer]:
+        - /url: /categories
+  - main [ref=e12]:
+    - generic [ref=e14]:
+      - heading "Categorias" [level=2] [ref=e15]
+      - generic [ref=e16]: Erro ao excluir categoria
+      - button "Adicionar Categoria" [ref=e17] [cursor=pointer]
+      - table [ref=e18]:
+        - rowgroup [ref=e19]:
+          - row "Nome Descrição Tarefas Criado em Ações" [ref=e20]:
+            - columnheader "Nome" [ref=e21]
+            - columnheader "Descrição" [ref=e22]
+            - columnheader "Tarefas" [ref=e23]
+            - columnheader "Criado em" [ref=e24]
+            - columnheader "Ações" [ref=e25]
+        - rowgroup [ref=e26]:
+          - row "Categoria Atualizada 1764290443210 - 0 27/11/2025 Editar Excluir" [ref=e27]:
+            - cell "Categoria Atualizada 1764290443210" [ref=e28]
+            - cell "-" [ref=e29]
+            - cell "0" [ref=e30]
+            - cell "27/11/2025" [ref=e31]
+            - cell "Editar Excluir" [ref=e32]:
+              - button "Editar" [ref=e33] [cursor=pointer]
+              - button "Excluir" [ref=e34] [cursor=pointer]
+          - row "Categoria Atualizada 1764290323949 - 1 27/11/2025 Editar Excluir" [ref=e35]:
+            - cell "Categoria Atualizada 1764290323949" [ref=e36]
+            - cell "-" [ref=e37]
+            - cell "1" [ref=e38]
+            - cell "27/11/2025" [ref=e39]
+            - cell "Editar Excluir" [ref=e40]:
+              - button "Editar" [ref=e41] [cursor=pointer]
+              - button "Excluir" [ref=e42] [cursor=pointer]
+          - row "Categoria Atualizada 1764290272559 - 1 27/11/2025 Editar Excluir" [ref=e43]:
+            - cell "Categoria Atualizada 1764290272559" [ref=e44]
+            - cell "-" [ref=e45]
+            - cell "1" [ref=e46]
+            - cell "27/11/2025" [ref=e47]
+            - cell "Editar Excluir" [ref=e48]:
+              - button "Editar" [ref=e49] [cursor=pointer]
+              - button "Excluir" [ref=e50] [cursor=pointer]
+          - row "Categoria Atualizada 1764290162763 - 0 27/11/2025 Editar Excluir" [ref=e51]:
+            - cell "Categoria Atualizada 1764290162763" [ref=e52]
+            - cell "-" [ref=e53]
+            - cell "0" [ref=e54]
+            - cell "27/11/2025" [ref=e55]
+            - cell "Editar Excluir" [ref=e56]:
+              - button "Editar" [ref=e57] [cursor=pointer]
+              - button "Excluir" [ref=e58] [cursor=pointer]
+          - row "Categoria Atualizada 1764290139050 - 2 27/11/2025 Editar Excluir" [ref=e59]:
+            - cell "Categoria Atualizada 1764290139050" [ref=e60]
+            - cell "-" [ref=e61]
+            - cell "2" [ref=e62]
+            - cell "27/11/2025" [ref=e63]
+            - cell "Editar Excluir" [ref=e64]:
+              - button "Editar" [ref=e65] [cursor=pointer]
+              - button "Excluir" [ref=e66] [cursor=pointer]
+          - row "Categoria Atualizada 1764290011561 - 0 27/11/2025 Editar Excluir" [ref=e67]:
+            - cell "Categoria Atualizada 1764290011561" [ref=e68]
+            - cell "-" [ref=e69]
+            - cell "0" [ref=e70]
+            - cell "27/11/2025" [ref=e71]
+            - cell "Editar Excluir" [ref=e72]:
+              - button "Editar" [ref=e73] [cursor=pointer]
+              - button "Excluir" [ref=e74] [cursor=pointer]
+          - row "Categoria Atualizada 1764289832993 - 1 27/11/2025 Editar Excluir" [ref=e75]:
+            - cell "Categoria Atualizada 1764289832993" [ref=e76]
+            - cell "-" [ref=e77]
+            - cell "1" [ref=e78]
+            - cell "27/11/2025" [ref=e79]
+            - cell "Editar Excluir" [ref=e80]:
+              - button "Editar" [ref=e81] [cursor=pointer]
+              - button "Excluir" [ref=e82] [cursor=pointer]
+          - row "Categoria Atualizada 1764289524197 - 1 27/11/2025 Editar Excluir" [ref=e83]:
+            - cell "Categoria Atualizada 1764289524197" [ref=e84]
+            - cell "-" [ref=e85]
+            - cell "1" [ref=e86]
+            - cell "27/11/2025" [ref=e87]
+            - cell "Editar Excluir" [ref=e88]:
+              - button "Editar" [ref=e89] [cursor=pointer]
+              - button "Excluir" [ref=e90] [cursor=pointer]
+          - row "Categoria Atualizada 1764289324783 - 0 27/11/2025 Editar Excluir" [ref=e91]:
+            - cell "Categoria Atualizada 1764289324783" [ref=e92]
+            - cell "-" [ref=e93]
+            - cell "0" [ref=e94]
+            - cell "27/11/2025" [ref=e95]
+            - cell "Editar Excluir" [ref=e96]:
+              - button "Editar" [ref=e97] [cursor=pointer]
+              - button "Excluir" [ref=e98] [cursor=pointer]
+          - row "Categoria Atualizada 1764289139456 - 0 27/11/2025 Editar Excluir" [ref=e99]:
+            - cell "Categoria Atualizada 1764289139456" [ref=e100]
+            - cell "-" [ref=e101]
+            - cell "0" [ref=e102]
+            - cell "27/11/2025" [ref=e103]
+            - cell "Editar Excluir" [ref=e104]:
+              - button "Editar" [ref=e105] [cursor=pointer]
+              - button "Excluir" [ref=e106] [cursor=pointer]
+          - row "Categoria Atualizada 1764288997975 - 0 27/11/2025 Editar Excluir" [ref=e107]:
+            - cell "Categoria Atualizada 1764288997975" [ref=e108]
+            - cell "-" [ref=e109]
+            - cell "0" [ref=e110]
+            - cell "27/11/2025" [ref=e111]
+            - cell "Editar Excluir" [ref=e112]:
+              - button "Editar" [ref=e113] [cursor=pointer]
+              - button "Excluir" [ref=e114] [cursor=pointer]
+          - row "Personal Personal tasks and activities 6 27/11/2025 Editar Excluir" [ref=e115]:
+            - cell "Personal" [ref=e116]
+            - cell "Personal tasks and activities" [ref=e117]
+            - cell "6" [ref=e118]
+            - cell "27/11/2025" [ref=e119]
+            - cell "Editar Excluir" [ref=e120]:
+              - button "Editar" [ref=e121] [cursor=pointer]
+              - button "Excluir" [ref=e122] [cursor=pointer]
+          - row "Work Tasks related to work and professional activities 6 27/11/2025 Editar Excluir" [ref=e123]:
+            - cell "Work" [ref=e124]
+            - cell "Tasks related to work and professional activities" [ref=e125]
+            - cell "6" [ref=e126]
+            - cell "27/11/2025" [ref=e127]
+            - cell "Editar Excluir" [ref=e128]:
+              - button "Editar" [ref=e129] [cursor=pointer]
+              - button "Excluir" [ref=e130] [cursor=pointer]
+          - row "Categoria Atualizada 1764288974287 - 0 27/11/2025 Editar Excluir" [ref=e131]:
+            - cell "Categoria Atualizada 1764288974287" [ref=e132]
+            - cell "-" [ref=e133]
+            - cell "0" [ref=e134]
+            - cell "27/11/2025" [ref=e135]
+            - cell "Editar Excluir" [ref=e136]:
+              - button "Editar" [ref=e137] [cursor=pointer]
+              - button "Excluir" [ref=e138] [cursor=pointer]
+          - row "Categoria Atualizada 1764288959586 - 0 27/11/2025 Editar Excluir" [ref=e139]:
+            - cell "Categoria Atualizada 1764288959586" [ref=e140]
+            - cell "-" [ref=e141]
+            - cell "0" [ref=e142]
+            - cell "27/11/2025" [ref=e143]
+            - cell "Editar Excluir" [ref=e144]:
+              - button "Editar" [ref=e145] [cursor=pointer]
+              - button "Excluir" [ref=e146] [cursor=pointer]
+          - row "Study Educational and learning tasks 3 25/11/2025 Editar Excluir" [ref=e147]:
+            - cell "Study" [ref=e148]
+            - cell "Educational and learning tasks" [ref=e149]
+            - cell "3" [ref=e150]
+            - cell "25/11/2025" [ref=e151]
+            - cell "Editar Excluir" [ref=e152]:
+              - button "Editar" [ref=e153] [cursor=pointer]
+              - button "Excluir" [active] [ref=e154] [cursor=pointer]
+```
